@@ -1,0 +1,35 @@
+==== Project files ===
+1- stack_ds.c
+2- stack_ds.h
+3- stdtypes.h  /*  Contains the standard datatypes */
+4- main.c
+
+==== Functions ====
+--Basic operations
+[x] stack_push()  ==> param : *stack_ds, value
+[x] stack_pop()   ==> param : *stack_ds, *value /* Store value in pointer */
+[x] stack_top()   ==> param : *stack_ds, *value /* Store value in pointer */
+
+--Helper Functions
+[x] stack_full()     /* Check if the stack is full */  (static)
+[x] stack_empty()    /* Check if the stack is empty */ (static)
+[x] stack_init()     /* initialize the stack */
+[x] stack_size()     /* Return the stack size */(static)
+[x] stack_display()  /* Display the stack elements */(static)
+
+==== Structures ====
+-- stack_t (struct)
+1- stack array
+2- stack pointer
+
+-- stack_status_t (enum)
+1- STACK_FULL
+2- STACK_EMPTY
+3- STACK_NOT_FULL
+
+
+==== stdtypes.h ==== (DONE)
+- unsinged and signed types (char, short, int ====> 8, 16, 32) (typedef struc)
+- stdreturn_t : OK, NOK
+
+

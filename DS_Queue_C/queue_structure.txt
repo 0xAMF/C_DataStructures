@@ -1,0 +1,27 @@
+====    Structure     ====
+---Queue_t typedef
+1. Queue array  --> double void pointer
+2. front        --> uint32_t
+3. rear         --> uint32_t
+4. max elements --> uint32_t
+5. current size --> uint32_t
+
+---QueueStatus enum
+Q_OK
+Q_NOK
+Q_EMPTY
+Q_FULL
+
+==== Basic Operations ====
+[x] Enqueue  (*Queue , *EnqueueElement) return QueueStatus
+[x] Dequeue  (*Queue , *StoreEnqueue)   return QueueStatus
+[x] getFront (*Queue, *StoreFront)      return QueueStatus
+[x] getRear  (*Queue , *StoreRear)      return QueueStatus
+
+==== Helper Functions ====
+[x] Q_isFull      (*Queue)         return QueueStatus
+[x] Q_isEmpty     (*Queue)         return QueueStatus
+[x] Q_CurrentSize (*Queue, size)   return QueueStatus
+[-] Q_Display     (*Queue)         return QueueStatus
+[x] Q_init        (*Queue)         return QueueStatus
+[x] Q_destroy      (*Queue)
