@@ -19,7 +19,6 @@ To use the C_DataStructures library in your C project, follow these steps:
 
    ````
    git clone https://github.com/0xAMF/C_DataStructures.git
-
    ````
 
 1. Include the desired data structure's header file in your project. For example, to use the queue data structure, include `DS_Queue_C/DS_Queue.h` in your source file.
