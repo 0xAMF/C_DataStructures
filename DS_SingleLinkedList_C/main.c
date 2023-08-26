@@ -57,9 +57,8 @@ int main() {
         printf("Application Terminated");
         break;
       default:
-        printf("Invalid choice!!, try again: \n");
+        printf("Invalid choice!!, try again.\n");
         break;
     }
-      
   }
 }
