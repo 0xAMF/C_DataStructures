@@ -7,20 +7,16 @@
 #define DEBUG_QUEUE
 
 /* Queue Structure */
-typedef struct{
+typedef struct {
   void **queue;
   sint32_t front;
   sint32_t rear;
   uint32_t MaxElements;
   uint32_t CurrentSize;
-}queue_t;
+} queue_t;
 
-typedef enum {
-  Q_OK,
-  Q_NOK,
-  Q_EMPTY,
-  Q_FULL
-}QueueStatus;
+
+typedef enum { Q_OK, Q_NOK, Q_EMPTY, Q_FULL } QueueStatus;
 
 /*==== Basic Functions ====*/
 /*
