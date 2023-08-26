@@ -19,7 +19,6 @@ To use the C_DataStructures library in your C project, follow these steps:
 
    ````
    git clone https://github.com/0xAMF/C_DataStructures.git
-   ```
 
    ````
 
