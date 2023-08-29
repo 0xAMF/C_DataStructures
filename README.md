@@ -7,6 +7,7 @@ C_DataStructures is a collection of simple data structure implementations in C. 
 
 The following data structures are currently included:
 
+- DS_DoublyLinkedList_C: Implementation of a doubly linked list data structure.
 - DS_Queue_C: Implementation of a queue data structure.
 - DS_SingleLinkedList_C: Implementation of a singly linked list data structure.
 - DS_Stack_C: Implementation of a stack data structure.
