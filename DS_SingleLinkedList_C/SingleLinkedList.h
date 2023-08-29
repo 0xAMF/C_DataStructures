@@ -85,4 +85,8 @@ uint32_t retrieve(node_t *list, uint32_t index);
  */
 uint32_t getLength(node_t *list);
 
+/* TODO: Reverse List */
+/* TODO: Swap 2 nodes */
+/* TODO: Sort nodes */
+
 #endif

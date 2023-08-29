@@ -293,7 +293,7 @@ uint32_t getLength(node_t *list) {
     }
   }
   else {
-    printf("NULL pointer error\n");
+    length = 0;
   }
 
   return length;
